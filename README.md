@@ -24,7 +24,7 @@ The biggest technical challenges will come from creating an intuitive and compel
 * [View Wireframe][wireframe]
 * [Schema Information][schema]
 
-[wireframe]: wireframes/main.png
+[wireframe]: docs/wireframes/main.png
 [schema]: docs/schema.md
 
 ##Implementation Timeline
