@@ -1,0 +1,26 @@
+{
+  "name": "jsProject--KleosPad",
+  "version": "1.0.0",
+  "description": "##Minimum Viable Product",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisruenes1/kleos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisruenes1/kleos/issues"
+  },
+  "homepage": "https://github.com/chrisruenes1/kleos#readme",
+  "dependencies": {
+    "webaudio": "^2.0.0"
+  }
+}
