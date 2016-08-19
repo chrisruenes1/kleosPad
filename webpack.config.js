@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/kleosPad.js",
+  entry: "./lib/kleos_pad.js",
   output: {
   	filename: "./lib/bundle.js"
   },
