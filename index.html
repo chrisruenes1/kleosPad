@@ -7,12 +7,17 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
     <link href='assets/stylesheets/modal.css' rel="stylesheet">
     <link href='assets/stylesheets/sequencer.css' rel="stylesheet">
+    <link href='assets/stylesheets/main.css' rel="stylesheet">
+    <link href='assets/stylesheets/navbar.css' rel="stylesheet">
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <nav>
+      <button id="play">PLAY</button>
+      <button id="directions">Directions</button>
+    </nav>
+      
     <canvas id="pad" width="1500px" height="1000px"></canvas>
-    <button id="play">PLAY</button>
-    <button id="directions">Directions</button>
     <div class="modal-overlay" id="instructions-modal-overlay">
       <div class="modal" id="instructions-modal">
         <p class="exit">&times</p>
