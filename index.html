@@ -15,15 +15,18 @@
   </head>
   <body>
     <nav class="group">
-      <button class='navbar-element' id="play">PLAY</button>
       <button class='navbar-element' id="directions">Directions</button>
-      <input
-        type="number"
-        value="200"
-        min="20"
-        max="400"
-        class="navbar-element"
-        id="tempo">
+      <button class='navbar-element' id="play">PLAY</button>
+      <div class='navbar-element container'>
+        <input
+          type="range"
+          value="200"
+          step="1"
+          min="20"
+          max="400"
+          id="tempo" />
+        <label id="current-tempo" for="tempo">&#9833 = 200</label>
+      <div>
     </nav>
       
     <canvas id="pad" width="1500px" height="1000px"></canvas>

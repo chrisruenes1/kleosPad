@@ -1,6 +1,5 @@
 nav {
   background-color: rgb(69, 67, 67);
-  height: 60px;
 }
 
 .navbar-element {
@@ -8,20 +7,31 @@ nav {
   background: transparent;
   color: #fa6363;
   margin-left: 20px;
-  height: 36px;
-  margin-top: 12px;
+  height: 60px;
   font-size: 28px;
-  line-height: 80%;
-  border-color:none;
-  border-style: none;
+  line-height: 60px;
   border-color: transparent;
   -webkit-appearnce: none;
   cursor: pointer;
   float: left;
 }
 
-#tempo {
-  width: 10%;
-  min-width: 74px;
+.container {
   cursor: default;
+  margin-top:5px;
+  
+}
+#tempo {
+  cursor: default;
+  display: block;
+  height: 25px;
+  line-height: 25px;
+}
+
+#current-tempo {
+  display: block;
+  cursor: default;
+  font-size: 18px;
+  height: 25px;
+  line-height: 25px;
 }
