@@ -1,0 +1,27 @@
+nav {
+  background-color: rgb(69, 67, 67);
+  height: 60px;
+}
+
+.navbar-element {
+  font-family: 'Poppins', sans-serif;
+  background: transparent;
+  color: #fa6363;
+  margin-left: 20px;
+  height: 36px;
+  margin-top: 12px;
+  font-size: 28px;
+  line-height: 80%;
+  border-color:none;
+  border-style: none;
+  border-color: transparent;
+  -webkit-appearnce: none;
+  cursor: pointer;
+  float: left;
+}
+
+#tempo {
+  width: 10%;
+  min-width: 74px;
+  cursor: default;
+}

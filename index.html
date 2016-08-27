@@ -5,16 +5,25 @@
     <title>KleosPad</title>
     <script src="lib/bundle.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <link href='assets/stylesheets/reset.css' rel="stylesheet">
     <link href='assets/stylesheets/modal.css' rel="stylesheet">
     <link href='assets/stylesheets/sequencer.css' rel="stylesheet">
     <link href='assets/stylesheets/main.css' rel="stylesheet">
     <link href='assets/stylesheets/navbar.css' rel="stylesheet">
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <button id="play">PLAY</button>
-      <button id="directions">Directions</button>
+    <nav class="group">
+      <button class='navbar-element' id="play">PLAY</button>
+      <button class='navbar-element' id="directions">Directions</button>
+      <input
+        type="number"
+        value="200"
+        min="20"
+        max="400"
+        class="navbar-element"
+        id="tempo">
     </nav>
       
     <canvas id="pad" width="1500px" height="1000px"></canvas>
