@@ -11,15 +11,22 @@ nav {
   font-size: 28px;
   line-height: 60px;
   border-color: transparent;
-  -webkit-appearnce: none;
-  cursor: pointer;
   float: left;
 }
+
+.navbar-button {
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  color:rgb(144, 100, 221);
+
+}
+
 
 .container {
   cursor: default;
   margin-top:5px;
-  
 }
 #tempo {
   cursor: default;
