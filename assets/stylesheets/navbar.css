@@ -26,10 +26,15 @@ nav {
   cursor: pointer;
 }
 
-.navbar-button:hover {
-  color:rgb(144, 100, 221);
-
+.navbar-button:hover, .navbar-selected {
+  color:rgb(167, 123, 244)
 }
+
+.navbar-selected {
+  color:rgb(144, 100, 221);
+}
+
+
 
 
 .container {
