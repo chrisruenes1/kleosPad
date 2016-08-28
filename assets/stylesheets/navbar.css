@@ -6,12 +6,20 @@ nav {
   font-family: 'Poppins', sans-serif;
   background: transparent;
   color: #fa6363;
-  margin-left: 20px;
   height: 60px;
   font-size: 28px;
   line-height: 60px;
   border-color: transparent;
+}
+
+.navbar-left {
+  margin-left: 20px;
   float: left;
+}
+
+.navbar-right {
+  margin-right: 20px;
+  float: right;
 }
 
 .navbar-button {
