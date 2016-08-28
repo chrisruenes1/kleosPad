@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>KleosPad</title>
+    
     <script src="lib/bundle.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    
     <link href='assets/stylesheets/reset.css' rel="stylesheet">
-    <link href='assets/stylesheets/modal.css' rel="stylesheet">
-    <link href='assets/stylesheets/sequencer.css' rel="stylesheet">
     <link href='assets/stylesheets/main.css' rel="stylesheet">
     <link href='assets/stylesheets/navbar.css' rel="stylesheet">
-    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link href='assets/stylesheets/modal.css' rel="stylesheet">
+    <link href='assets/stylesheets/visualizer.css' rel="stylesheet">
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
   </head>
+  
   <body>
     <nav>
       <button class='navbar-element navbar-button navbar-left' id="directions">Help</button>
@@ -20,12 +25,12 @@
       <div class='navbar-element navbar-left container'>
         <input
           type="range"
-          value="200"
+          value="120"
           step="1"
           min="20"
           max="400"
           id="tempo" />
-        <label id="current-tempo" for="tempo">&#9833 = 200</label>
+        <label id="current-tempo" for="tempo"></label>
       </div>
       <p class='navbar-element navbar-title'>Kleos Pad</p>
       <ul class='navbar-element navbar-right' id='pattern-list'>
@@ -36,17 +41,21 @@
     </nav>
       
     <canvas id="pad" width="1500px" height="1000px"></canvas>
+    
     <div class="modal-overlay" id="instructions-modal-overlay">
       <div class="modal" id="instructions-modal">
+        
         <p class="exit">&times</p>
+        
         <h1 class="modal-title">
-          Kleos Pad </br>
+          Welcome to the Kleos Pad! </br>
         </h1>
+        
         <div class="modal-content">
           - Play or pause the drum loop by pressing the button <br />
-          <br />
-          - Click and drag around the black background to filter the loop
-          in real time <br />
+          - Switch between loops seamlessly by clicking the pattern buttons <br />
+          - Change bpm on the fly using the tempo slider <br />
+          - Click and drag around the black background to filter the loop <br />
           <ul>
             <li class="li-modal"> Bandwidth filter runs low to high from top to bottom</li>
             <li class="li-modal"> Delay runs short to long from left to right </li>
@@ -54,7 +63,8 @@
             <li class="li-modal"> Reverb runs dry to wet from bottom to top </li>
           </ul>
         </div>
-        <div>
-        </div>
+        
+      </div>
+    </div>
   </body>
 </html>
