@@ -13,9 +13,9 @@
   width: 86%;
   margin-top: 10%;
   position: relative;
-  background: -webkit-linear-gradient(115deg, #fa6363, rgb(255, 230, 230));
+  background: black;
   border-radius: 2px;
-  color: rgb(25, 25, 25);
+  color: white;
   cursor: default;
 }
 
@@ -44,7 +44,12 @@
 .modal-content {
   font-size: 2.5vw;
   text-align: justify;
-  margin-left: 5px;
+  padding: 0px 15px 15px 15px;
+}
+
+.modal-list {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
 .hidden {
