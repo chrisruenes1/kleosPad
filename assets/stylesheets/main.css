@@ -2,3 +2,7 @@ body {
   background: rgb(21, 21, 21);
   font-family: 'Poppins', sans-serif;
 }
+
+.pointer {
+  cursor: pointer;
+}
